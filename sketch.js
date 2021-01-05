@@ -126,7 +126,9 @@ function draw() {
   fill("tyellow");
   text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks",100,30);
 
-
+ textSize(20);
+  fill("Blue");
+  text("Score : " +score, 750, 40);
 
   drawSprites();
  
